@@ -1,0 +1,52 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 50vh;
+    background-image: url(../img/chicagoRiver.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cardContainer {
+    display: flex;
+    flex-direction: row;
+    width: 33vw;
+    height: 20vh;
+    background-color: black;
+}
+
+
+.card {
+    width: 33vw;
+    border: thin;
+    border-color:white;
+    color: white;
+}
+
+
+
+
+
+@media screen and (min-width: 300px) and (max-width: 768px) {
+    
+    .hero {
+        width: 100vw;
+        height: 25vh;
+    }
+
+    .cardContainer {
+        display: flex;
+        flex-direction: column;
+        width: 33vw;
+        height: 20vh;
+        background-color: black;
+    }
+
+}
